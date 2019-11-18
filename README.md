@@ -17,7 +17,7 @@ While the system was not able to interconnect to the hardware yet, several key e
 4. Can the cycle of amplitude changes be analyzed to determine the flap rate? Yes.
 
 ## Software Details:
-Full software docs available in docs/htm/index.html  found in the repo.
+Full software docs available in docs/html/index.html  found in the repo.
 
 The software is built on C++ using the Qt C++ Library to facilitate a cross-platform GUI and to provide useful extensions to the standard C++ library. Everything has been compiled on a Windows 10 computer using Visual Studio 2017 and the GCC compiler. In keeping with the Qt paradigm a project file (.pro) could be easily built and would contain all the necessary project information needed to facilitate compiling within another package, by using the qmake capability. This includes movement of the software to another OS (e.g. Linux)
 ### Other needed libraries
